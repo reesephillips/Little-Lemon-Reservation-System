@@ -1,0 +1,44 @@
+.specials-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.special-cards {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.this-week {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 77px;
+    color: black;
+}
+
+.online-menu-btn {
+    padding: 15px 30px;
+    font-size: 16pt;
+    font-weight: 600;
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 20px;
+    border: none;
+}
+
+.online-menu-btn:hover{
+    cursor: pointer;
+    background-color: #333333;
+    color: #f4ce14;
+    transition: 0.3s;
+}

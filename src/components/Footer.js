@@ -1,8 +1,13 @@
 import React from 'react'
+import '../components/styles/Footer.css'
+import Logo from '../components/assets/footerlogo.png'
+
 
 function Footer() {
   return (
-    <>
+    <div className='footer-container'>
+      <div className='footer-items'>
+        <img className='logo' src={Logo} alt='footer logo' />
         <ul>
             <h3>Doormat Navigation</h3>
             <li>Home</li>
@@ -23,7 +28,8 @@ function Footer() {
             <li>Twitter</li>
             <li>Instagram</li>
         </ul>
-    </>
+      </div>
+    </div>
   )
 }
 

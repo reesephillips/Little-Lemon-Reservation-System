@@ -1,8 +1,11 @@
 import React from 'react'
+import '../components/styles/Navigation.css'
+import Logo from "../components/assets/logo.jpg"
 
 function Navigation() {
   return (
     <nav>
+      <img src={ Logo } alt = 'logo'/>
         <ul>
             <li>Home</li>
             <li>About</li>

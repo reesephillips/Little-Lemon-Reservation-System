@@ -1,8 +1,11 @@
 import React from 'react'
+import Navigation from './Navigation';
 
 function Header() {
   return (
-    <img src='/images/little-lemon-logo.svg' alt = 'logo'/>
+    <>
+      <Navigation />
+    </>
   )
 }
 

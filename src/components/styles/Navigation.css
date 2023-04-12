@@ -1,0 +1,40 @@
+/* Navigation bar container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  img {
+    margin-left: 8rem;
+    width: 200px;
+  }
+
+  /* Navigation links */
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 8rem;
+  }
+  
+  nav li {
+    margin: 0 20px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }

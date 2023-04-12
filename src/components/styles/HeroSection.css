@@ -1,0 +1,71 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #495E57;
+    padding-bottom: 2rem;
+}
+section {
+    width: 15%;
+}
+
+.white-text{
+    color: white;
+    padding-bottom: 1rem;
+    font-family: 'Markazi Text';
+}
+
+h1 {
+    color: #f4ce14;
+    font-family: 'Markazi Text';
+}
+
+.image-div {
+    width: 50;
+    height: 300px;
+    padding-top: 30px;
+}
+
+.image-div > img {
+    border-radius: 1rem;
+    width: 300px;
+    height: 400px;
+}
+
+.reserve {
+    padding: 15px 30px;
+    font-size: 16pt;
+    font-weight: 600;
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 20px;
+    border: none;
+}
+
+.reserve:hover{
+    cursor: pointer;
+    background-color: #333333;
+    color: #f4ce14;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 800px) {
+    section{
+        width: 60%;
+    }
+    aside {
+        width: 30%;
+    }
+    .image-div {
+        width: 150px;
+        height: 200px;
+    }
+    .image-div > img {
+width: 100%;    }
+    .hero{
+        padding-bottom: 2rem;
+    }
+
+  }

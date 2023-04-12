@@ -1,0 +1,27 @@
+.footer-container {
+    padding: 100px 0px;
+    background-color: #495E57;
+    align-items: center;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+h3 {
+    color: white;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
