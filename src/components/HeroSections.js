@@ -1,6 +1,7 @@
 import React from 'react'
 import RestaurantFood from '../components/assets/restauranfood.jpg';
 import '../components/styles/HeroSection.css'
+import { NavLink } from 'react-router-dom';
 
 export default function HeroSections() {
   return (
@@ -12,7 +13,7 @@ export default function HeroSections() {
               We are a family owned mediterreanean restaurant, focused on traditional recipes served with a modren twist.
 
             </p>
-            <button className='reserve'>Reserve a Table</button>
+            <NavLink to="/reservation"><button className='reserve'>Reserve a Table</button></NavLink>
       </section>
           <aside>
             <div className='image-div'>
